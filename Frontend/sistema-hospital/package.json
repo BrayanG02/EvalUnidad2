@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "@vuepic/vue-datepicker": "^8.7.0",
+    "dist": "^0.1.2",
     "flowbite": "^2.3.0",
+    "serve": "^14.2.3",
     "tailwindcss": "^3.4.4",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"

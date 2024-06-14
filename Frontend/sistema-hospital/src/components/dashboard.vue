@@ -338,9 +338,24 @@
 <!--        <div class="w-full p-8 lg:w-1/2">
           <PiePagina />
        </div> -->
+       <div >
+         <PiePagina />
+      </div>
     </div>
 
     </template>
+
+    
+<script>
+import PiePagina from './piePagina.vue'
+
+export default {
+components: {
+    PiePagina
+    }
+}
+</script>
+
 
 <!-- <script>
 import PiePagina from './piePagina.vue'
