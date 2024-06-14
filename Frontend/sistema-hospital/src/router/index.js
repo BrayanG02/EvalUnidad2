@@ -4,7 +4,7 @@ import LoginVuew from '@/components/login.vue'
 import dashboard from '@/components/dashboard.vue'
 import Persona from '@/components/persona.vue'
 import Calendar from '@/components/calendar.vue'
-
+import PiePagina from '@/components/piePagina.vue'
 
 
 
@@ -27,7 +27,8 @@ const router = createRouter({
       component: dashboard,
       children:[
         {path:'/persona',name:'persona', component : Persona},
-        {path:'/calendario',name:'calendar', component : Calendar}
+        {path:'/calendario',name:'calendar', component : Calendar},
+        {path:'/piePagina',name:'piepagina', component : PiePagina}
       ]
     }
   ]
