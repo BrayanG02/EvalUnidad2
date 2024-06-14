@@ -96,4 +96,13 @@
   padding: 10px;
   z-index: 1000; /* Asegúrate de que el footer esté encima del contenido */
 }
+
+/* position: fixed; 
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  z-index: 1000; */ 
 </style>
