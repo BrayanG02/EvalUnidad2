@@ -1,5 +1,5 @@
 <template>
-<footer class="bg-white dark:bg-gray-900">
+<footer id="footer"class="bg-white dark:bg-gray-900">
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
@@ -84,3 +84,16 @@
     </div>
 </footer>
 </template>
+
+<style scoped>
+#footer {
+  position: fixed; /* O usa position: absolute; */
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  z-index: 1000; /* Asegúrate de que el footer esté encima del contenido */
+}
+</style>

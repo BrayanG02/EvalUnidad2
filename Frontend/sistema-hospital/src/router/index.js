@@ -28,8 +28,13 @@ const router = createRouter({
       children:[
         {path:'/persona',name:'persona', component : Persona},
         {path:'/calendario',name:'calendar', component : Calendar},
-        {path:'/piePagina',name:'piepagina', component : PiePagina}
+        
       ]
+    },
+    {
+      path:'/piePagina',
+      name:'piepagina',
+      component : PiePagina
     }
   ]
 })
